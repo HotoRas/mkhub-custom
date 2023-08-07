@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-48629862","path":"/id/docs/features/follow.html","title":"Ikuti","lang":"id-ID","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1691373983000,"contributors":[{"name":"Hoto Ras","email":"jdh59681@gmail.com","commits":1}]},"filePathRelative":"id/docs/features/follow.md"}');export{t as data};

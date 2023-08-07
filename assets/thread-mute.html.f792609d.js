@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-198ca6b6","path":"/id/docs/features/thread-mute.html","title":"Bisukan Utas","lang":"id-ID","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1691373983000,"contributors":[{"name":"Hoto Ras","email":"jdh59681@gmail.com","commits":1}]},"filePathRelative":"id/docs/features/thread-mute.md"}');export{t as data};

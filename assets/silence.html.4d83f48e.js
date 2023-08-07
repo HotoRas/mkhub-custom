@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-479801b1","path":"/id/docs/features/silence.html","title":"Bisukan","lang":"id-ID","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1691373983000,"contributors":[{"name":"Hoto Ras","email":"jdh59681@gmail.com","commits":1}]},"filePathRelative":"id/docs/features/silence.md"}');export{e as data};

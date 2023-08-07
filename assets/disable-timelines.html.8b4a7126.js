@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-9d09e5ec","path":"/id/docs/tips/disable-timelines.html","title":"Menonaktifkan LML/LMS/LMG","lang":"id-ID","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1691373983000,"contributors":[{"name":"Hoto Ras","email":"jdh59681@gmail.com","commits":1}]},"filePathRelative":"id/docs/tips/disable-timelines.md"}');export{e as data};
