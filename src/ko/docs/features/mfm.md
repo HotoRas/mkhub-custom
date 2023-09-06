@@ -5,7 +5,7 @@ Misskey를 위한 마크다운 문법인 MFM은 Misskey 내의 여러 곳에서 
 기본적인 문법은 Markdown과 호환됩니다.
 :::
 
-:::tip
+::: tip
 모든 MFM은 중첩할 수 있습니다. `$[`...`]`, `<>`...`</>`의 ... 부분에 중첩할 MFM이 있는 내용을 넣으면 중첩 적용됩니다.  
 단 가독성 등의 문제로 중첩의 정도에는 제한이 있기에, 너무 많은 중첩은 삼가해주세요.
 :::
@@ -19,39 +19,39 @@ Misskey를 위한 마크다운 문법인 MFM은 Misskey 내의 여러 곳에서 
 ## 기본 MFM 문법
 ### 굵은 글씨
 글자를 **굵게** 표시해 강조할 수 있습니다.
-```:no-line-numbers
+```markdown:no-line-numbers
 **Bold**
 __Bold__
 ```
 
 ### 기울이기
 글자를 <i>기울임꼴</i>로 표시할 수 있습니다. 이텔릭체라고도 불립니다.
-```:no-line-numbers
+```markdown:no-line-numbers
 <i>Italic</i>
 ```
 
 ### 작은 글자
 내용을 <small>작고 얇게</small> 표시할 수 있습니다.
-```:no-line-numbers
+```markdown:no-line-numbers
 <small>작게</small>
 ```
 
 ### 취소선
 글자에 ~~취소선~~을 그을 수 있습니다.
-```:no-line-numbers
+```markdown:no-line-numbers
 ~~Cancel~~
 ```
 
 ### 인용
 > 인용글을 나타낼 때 사용하는 문법입니다.
 
-```:no-line-numbers
+```markdown:no-line-numbers
 > 인용글을 여기에 입력하는 거에요!
 ```
 
 ### 하이퍼링크
 일반적으로 링크를 그대로 입력하면 하이퍼링크로 동작합니다. 하지만 일부 동작하지 않는 경우가 있으니 `<url...>`의 형태로 적는 것도 허용됩니다.
-```:no-line-numbers
+```markdown:no-line-numbers
 https://misskey.io
 <https://misskey-hub.net>
 [Misskey GitHub](https://github.com/misskey-dev/misskey)
@@ -60,7 +60,7 @@ https://misskey.io
 
 ### 소스코드와 코드 블록
 문장 중간에 짧은 코드나 키워드를 넣고 싶다면, 문장 중간에 <plain>`</plain>으로 둘러싼 문구를 넣으면 됩니다.
-```:no-line-numbers
+```markdown:no-line-numbers
 `<: "Hello, world!"`
 ```
 
@@ -75,7 +75,7 @@ https://misskey.io
 ```
 </code></pre></div>
 
-:::tip
+::: tip
 일반적으로, Markdown에서는 여는 <plain>```</plain>에 그 코드의 성격을 명시하는 것이 가능합니다. GitHub 등 대부분의 Markdown 렌더링 기능이 있는 곳에서는 이에 따라 스타일링을 해주기도 해요.  
 다만 Misskey에서는 이를 무시하고 AiScript 기반으로 스타일링하는 것으로 보입니다.
 :::
@@ -83,7 +83,7 @@ https://misskey.io
 ### 멘션
 멘션을 하면 멘션받은 사용자에게 알림이 발송됩니다. `@` 마크와 사용자 이름으로 특정 사용자를 나타냅니다.  
 리모트 사용자인 경우, 추가적인 `@` 뒤에 해당 서버의 주소까지 전부 입력해야 정상 동작합니다. 로컬 사용자의 경우 서버 주소 입력을 생략할 수 있습니다.
-```:no-line-numbers
+```markdown:no-line-numbers
 @alice
 @alice@example.com
 ```
@@ -148,7 +148,7 @@ $[rotate.deg=-70 음수 각도도 됩니다]
 $[fg.color=0af 글자색] $[bg.color=c3f8 배경색]
 ```
 
-:::tip
+::: tip
 `color`는 HEX 컬러 코드를 입력합니다. RGB, RGBA, RRGGBB 형식을 지원합니다.
 :::
 
@@ -175,7 +175,7 @@ $[position.y=-0.5 위로] $[position.x=-0.5 조금 옆으로]
 $[scale.x=1,y=0.5 위아래 누르기] $[scale.x=0.5,y=1 좌우로 누르기]
 ```
 
-:::tip
+::: tip
 단순히 크게 표시하고 싶다면, `x2`, `x3`, `x4`를 이용할 수도 있습니다.
 이 경우, 좌우의 늘리는 정도와 위아래의 늘리는 정도가 동일합니다.
 
