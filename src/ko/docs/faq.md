@@ -18,8 +18,8 @@ Misskey 공식 웹 클라이언트를 이용해 주십시오.
 ## misskey.io는 Misskey 공식 인스턴스인가요?
 misskey.io는 Misskey 공식 인스턴스가 아니며, Misskey 프로젝트와 별개로 운영되고 있습니다. misskey.io는 특정한 주제 없이 다양한 이야기가 오가며, 가볍게 이용할 수 있는 Misskey 최대 규모의 인스턴스입니다.
 
-## MisskeyHQ 주식회사와의 관계는?
-MisskeyHQ 주식회사는 misskey.io의 운영을 목적으로 한 회사입니다. 따라서 Misskey 개발 프로젝트와의 직접적인 관계는 없습니다.
+## MisskeyHQ 유한회사와의 관계는?
+MisskeyHQ 유한회사는 misskey.io의 운영을 목적으로 한 회사입니다. 따라서 Misskey 개발 프로젝트와의 직접적인 관계는 없습니다.
 다만 Misskey 프로젝트 리더인 Syuilo도 임원으로 참여하고 있으며, 상호 협력하여 Misskey를 발전시켜 나가는 관계입니다.
 
 ## 'Misskey'라는 이름의 유래는 무엇인가요?
