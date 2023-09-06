@@ -37,7 +37,7 @@ Renote 시각 표시 오른쪽에 있는 3점 메뉴("...")를 눌러, 'Renote �
 Renote에 대한 자세한 내용은 [여기](./features/note.md)에서 확인하실 수 있습니다.
 
 ## URL의 미리보기를 숨길 수 없나요?
-MFM(Markup language For Misskey)라는 Misskey만의 독자적인 마크업 언어를 이용하여, 보이고 싶지 않은 URL을 숨길 수 있습니다. 자세한 내용은 각 인스턴스의 MFM 도움말을 참조해 주세요. 주소창에 다음과 같은 형식으로 입력하시면 확인하실 수 있습니다. `https://<나의 인스턴스 호스트 명>/mfm-cheat-sheet`
+MFM(Markup language For Misskey)라는 Misskey만의 독자적인 마크업 언어를 이용하여, 보이고 싶지 않은 URL을 숨길 수 있습니다. 자세한 내용은 [여기](./features/mfm.md)를 참조해 주세요. Misskey 12 및 이전 버전의 Misskey에서는 `https://<my.instance.host>/mfm-cheat-sheet`에서도 확인 가능합니다.
 
 ## 커스텀 이모지를 추가하고 싶어요!
 커스텀 이모지의 추가, 편집, 삭제는 자신이 속한 인스턴스의 관리자만 할 수 있습니다. 커스텀 이모지에 대한 요청은 각 인스턴스 관리자에게 문의해 주십시오.

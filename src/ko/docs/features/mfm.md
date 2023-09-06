@@ -58,6 +58,13 @@ https://misskey.io
 [Misskey Hub GitHub](<https://github.com/misskey-dev/misskey-hub>)
 ```
 
+::: tip
+URL 미리보기를 숨기려면 URL의 가장 마지막에 ?를 입력하면 됩니다.
+```markdown:no-line-numbers
+<https://misskey-hub.net/ko?>
+```
+:::
+
 ### 소스코드와 코드 블록
 문장 중간에 짧은 코드나 키워드를 넣고 싶다면, 문장 중간에 ` 문자로 둘러싼 문구를 넣으면 됩니다.
 ```markdown:no-line-numbers
