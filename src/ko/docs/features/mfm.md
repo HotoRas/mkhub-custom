@@ -59,12 +59,12 @@ https://misskey.io
 ```
 
 ### 소스코드와 코드 블록
-문장 중간에 짧은 코드나 키워드를 넣고 싶다면, 문장 중간에 <plain>`</plain>으로 둘러싼 문구를 넣으면 됩니다.
+문장 중간에 짧은 코드나 키워드를 넣고 싶다면, 문장 중간에 ` 문자로 둘러싼 문구를 넣으면 됩니다.
 ```markdown:no-line-numbers
 `<: "Hello, world!"`
 ```
 
-긴 코드를 입력하려면 <plain>```</plain>으로 둘러싼 코드 블록을 넣어야 해요.
+긴 코드를 입력하려면 ` 문자 세 겹으로 둘러싼 코드 블록을 넣어야 해요.
 <div class="language-text ext-text"><pre v-pre class="language-text"><code>```
 ~~(#i,100) {
 	&lt;: ? ((i % 15) = 0) "FizzBuzz"
@@ -76,7 +76,7 @@ https://misskey.io
 </code></pre></div>
 
 ::: tip
-일반적으로, Markdown에서는 여는 <plain>```</plain>에 그 코드의 성격을 명시하는 것이 가능합니다. GitHub 등 대부분의 Markdown 렌더링 기능이 있는 곳에서는 이에 따라 스타일링을 해주기도 해요.  
+일반적으로, Markdown에서는 여는 세 겹의 ` 뒤에 붙여 그 코드의 성격을 명시하는 것이 가능합니다. GitHub 등 대부분의 Markdown 렌더링 기능이 있는 곳에서는 이에 따라 스타일링을 해주기도 해요.  
 다만 Misskey에서는 이를 무시하고 AiScript 기반으로 스타일링하는 것으로 보입니다.
 :::
 
