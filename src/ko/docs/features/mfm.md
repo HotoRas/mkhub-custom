@@ -19,39 +19,39 @@ Misskey를 위한 마크다운 문법인 MFM은 Misskey 내의 여러 곳에서 
 ## 기본 MFM 문법
 ### 굵은 글씨
 글자를 **굵게** 표시해 강조할 수 있습니다.
-```markdown:no-line-numbers
+```:no-line-numbers
 **Bold**
 __Bold__
 ```
 
 ### 기울이기
 글자를 <i>기울임꼴</i>로 표시할 수 있습니다. 이텔릭체라고도 불립니다.
-```markdown:no-line-numbers
+```:no-line-numbers
 <i>Italic</i>
 ```
 
 ### 작은 글자
 내용을 <small>작고 얇게</small> 표시할 수 있습니다.
-```markdown:no-line-numbers
+```:no-line-numbers
 <small>작게</small>
 ```
 
 ### 취소선
 글자에 ~~취소선~~을 그을 수 있습니다.
-```markdown:no-line-numbers
+```:no-line-numbers
 ~~Cancel~~
 ```
 
 ### 인용
 > 인용글을 나타낼 때 사용하는 문법입니다.
 
-```markdown:no-line-numbers
+```:no-line-numbers
 > 인용글을 여기에 입력하는 거에요!
 ```
 
 ### 하이퍼링크
 일반적으로 링크를 그대로 입력하면 하이퍼링크로 동작합니다. 하지만 일부 동작하지 않는 경우가 있으니 `<url...>`의 형태로 적는 것도 허용됩니다.
-```markdown:no-line-numbers
+```:no-line-numbers
 https://misskey.io
 <https://misskey-hub.net>
 [Misskey GitHub](https://github.com/misskey-dev/misskey)
@@ -60,7 +60,7 @@ https://misskey.io
 
 ### 소스코드와 코드 블록
 문장 중간에 짧은 코드나 키워드를 넣고 싶다면, 문장 중간에 <plain>`</plain>으로 둘러싼 문구를 넣으면 됩니다.
-```markdown:no-line-numbers
+```:no-line-numbers
 `<: "Hello, world!"`
 ```
 
@@ -93,7 +93,7 @@ https://misskey.io
 
 ### 플레인
 안쪽의 구문을 모두 비활성화합니다.
-```markdown:no-line-numbers
+```:no-line-numbers
 <plain>**bold** @mention #hashtag `code` $[x2 🍮]</plain>
 ```
 
