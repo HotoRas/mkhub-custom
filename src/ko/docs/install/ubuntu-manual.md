@@ -183,7 +183,7 @@ nginx는 주로 리버스 프록시에 사용되는 웹 서버 소프트웨어�
 
 nginx.org의 문서 http://nginx.org/en/linux_packages.html#Ubuntu 에 따라 설치합니다.
 
-:::tip
+::: tip
 이 부분의 shell은 Ubuntu를 기준으로 설명합니다. 다른 Linux 환경에서 구성하는 경우 nginx.org에서 확인해 직접 설정해야 합니다.
 :::
 
@@ -195,7 +195,7 @@ curl https://nginx.org/keys/nginx_signing.key | gpg --dearmor | sudo tee /usr/sh
 gpg --dry-run --quiet --no-keyring --import --import-options import-show /usr/share/keyrings/nginx-archive-keyring.gpg
 ```
 
-이때 출력에 573BFD6B3D8FBC641079A6ABABF5BD827BD9BF62가 있는지 확인합니다.
+이때 출력에 `573BFD6B3D8FBC641079A6ABABF5BD827BD9BF62`가 있는지 확인합니다.
 
 ```sh
 echo "deb [signed-by=/usr/share/keyrings/nginx-archive-keyring.gpg] http://nginx.org/packages/ubuntu `lsb_release -cs` nginx" | sudo tee / etc/apt/sources.list.d/nginx.list
@@ -359,7 +359,7 @@ git checkout master
 NODE_ENV=production pnpm install --frozen-lockfile
 ```
 
-:::tip
+::: tip
 개발 환경이면 `NODE_ENV=production`을 붙일 필요가 없습니다.
 :::
 

@@ -1,6 +1,4 @@
-Create Misskey instance with Docker Compose
-================================================================
-
+# Create Misskey instance with Docker Compose
 This guide describes how to install and setup Misskey with Docker Compose.
 
 ::: danger
@@ -11,18 +9,15 @@ Do not recreate the database with the domain/hostname of the server once you hav
 - docker and dockercompose installed
 :::
 
-Get the repository
-----------------------------------------------------------------
+## Get the repository
 ```sh
 git clone -b master https://github.com/misskey-dev/misskey.git
 cd misskey
 git checkout master
 ```
 
-Configure
-----------------------------------------------------------------
+## Configure
 Copy example configuration files with following:
-
 ```sh
 cp .config/example.yml .config/default.yml
 cp .config/docker_example.env .config/docker.env
@@ -33,29 +28,27 @@ Edit `default.yml` and `docker.env` according to the instructions in the files.
 
 Edit `docker-compose.yml` if necessary. (e.g. if you want to change the port).
 
-Build and initialize
-----------------------------------------------------------------
+## Build and initialize
 The following command will build Misskey and initialize the database.
 This will take some time.
-
-``` shell
+```sh
 sudo docker compose build
 sudo docker compose run --rm web pnpm run init
 ```
 
-Launch
-----------------------------------------------------------------
+## Launch
 Well done! You can start Misskey with the following command.
-
-
 ```sh
 sudo docker compose up -d
 ```
 
 GLHF✨
 
-How to update your Misskey server
-----------------------------------------------------------------
+::: warning
+IF you once published your server, NEVER change the domain (the host name or server's URL).
+:::
+
+## How to update your Misskey server
 ::: warning
 When updating, be sure to check the [release notes](https://github.com/misskey-dev/misskey/blob/master/CHANGELOG.md) to know in advance the changes and whether or not additional work is required (in most cases, it is not).
 :::
@@ -72,8 +65,7 @@ sudo docker compose stop && sudo docker compose up -d
 
 It may take some time depending on the contents of the update and the size of the database.
 
-How to execute CLI command
-----------------------------------------------------------------
+## How to execute CLI command
 ```sh
 sudo docker compose run --rm web node packages/backend/built/tools/foo bar
 ```

@@ -55,11 +55,19 @@ NODE_ENV=production pnpm run build
 pnpm run init
 ```
 
+::: tip
+`pnpm run build` 단계에서 앞의 `NODE_ENV=production`을 생략하면 개발 환경으로 구축됩니다.
+:::
+
 ## Misskey 실행
 Misskey의 실행을 위한 모든 준비가 끝났습니다. 이제 다음 명령을 통해 Misskey를 실행할 수 있습니다.
 ```sh
 NODE_ENV=production pnpm run start
 ```
+
+::: tip
+개발 환경으로 구축하는 경우 앞의 `NODE_ENV=production`을 명시할 필요가 없습니다.
+:::
 
 ### details systemd를 이용한 관리
 우선 systemd 서비스 파일을 생성합니다.
@@ -109,7 +117,7 @@ sudo systemctl start misskey
 업데이트 시 반드시 [변경사항](https://github.com/misskey-dev/misskey/blob/master/CHANGELOG.md)를 확인하고 변경사항이나 필요한 추가 작업을 미리 확인해 주십시오.
 :::
 
-master를 다시 풇하고 설치, 빌드, DB 마이그레이션을 실시합니다.
+master를 다시 풀하고 설치, 빌드, DB 마이그레이션을 실시합니다.
 ```sh
 git checkout master
 git pull

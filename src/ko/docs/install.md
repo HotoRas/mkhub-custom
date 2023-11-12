@@ -7,6 +7,8 @@ Misskey 인스턴스 구축에 관심을 가져 주셔서 감사합니다. 인�
 
 ::: danger
 이용을 시작한 이후에는 도메인 이름(호스트명)을 변경하지 마세요!
+
+또한, 한 번 사용을 시작한 도메인/호스트명으로 DB를 새로 생성하지 마세요!
 :::
 
 ::: danger
@@ -22,6 +24,11 @@ Cloudflare 가 최신 자바스크립트를 해석하지 않고 내부 소스코
 
 ## bash 스크립트를 통한 설치
 [해당 문서 참고](./install/bash.md)
+
+## Xserver VPS로 설치
+[Xserver VPS](https://vps.xserver.ne.jp)에서는 Misskey 표준 앱 이미지를 제공하고 있어 손쉽게 Misskey 서버를 만들 수 있습니다.
+
+자세한 내용은 Xserver의 [Misskey 앱 이미지 이용하기 (일본어)](https://vps.xserver.ne.jp/support/manual/man_server_app_use_misskey.php)를 참고해주세요.
 
 ## 수동 설치
 [기본 수동 설치](./install/manual.md)\

@@ -1,3 +1,7 @@
+---
+description: 'This tutorial provides how to configure and run Misskey install shell script for bash.'
+---
+
 # Misskey install shell script v3.0.0
 Install Misskey with one shell script!  
 
@@ -6,7 +10,7 @@ You can install misskey on an Ubuntu server just by answering some questions.
 There is also an update script.
 
 [For v12](./bash-v165.md)  
-[For older versions](./bash-v140.md)
+[For older versions of Misskey](./bash-v140.md)
 
 ## License
 [MIT License](./LICENSE)
@@ -37,7 +41,7 @@ sudo apt update; sudo apt full-upgrade -y; sudo reboot
 ### 3. Start the installation
 Reconnect SSH and let's start installing Misskey. 
 
-```
+```sh:no-line-numbers
 wget https://raw.githubusercontent.com/joinmisskey/bash-install/main/ubuntu.sh -O ubuntu.sh; sudo bash ubuntu.sh
 ```
 
@@ -49,13 +53,13 @@ Please refer to CHANGELOG (Japanese) and [GitHub release list (English)](https:/
 
 First, download the script.
 
-```
+```sh:no-line-numbers
 wget https://raw.githubusercontent.com/joinmisskey/bash-install/main/update.ubuntu.sh -O update.sh
 ```
 
 Run it when you want to update Misskey.
 
-```
+```sh:no-line-numbers
 sudo bash update.sh
 ```
 

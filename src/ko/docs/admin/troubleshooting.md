@@ -225,6 +225,9 @@ redisの接続も確認した方がよいでしょう。 [→ redisに接続で�
 S3 example (with CDN, custom domain)は、AWSのデフォルトのドメインではなく独自ドメインでストレージを公開したい場合の設定です。
 endpointと公開ドメインが同じサービスの場合はS3 exampleのように`baseUrl`は明記しなくてよく、さらにregionの概念がないサービスの場合はregionの行は必要ありません。
 
+### ローディングが終わらない
+Cloudflare を使用している場合は、Rocket LoaderやAuto Minifyが有効になっていないか確認してください。有効になっている場合は無効にすることで解決する場合があります。
+
 ### S3互換サービスでの設定
 Misskeyではオブジェクトストレージの接続に[aws-sdk](https://www.npmjs.com/package/aws-sdk)を利用しています。
 Amazon S3に互換性のあるオブジェクトストレージであれば利用できる可能性があります。
